@@ -22,6 +22,12 @@ export default function Home() {
             SERVICES
           </Link>
           <Link
+            href="/portfolio"
+            className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300"
+          >
+            PORTFOLIO
+          </Link>
+          <Link
             href="/contact"
             className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300"
           >
