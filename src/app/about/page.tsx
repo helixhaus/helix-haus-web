@@ -8,28 +8,28 @@ export default function AboutPage() {
 
   const services = [
     { 
-      title: 'Brand Architecture', 
-      desc: 'Engineering the visual DNA and narrative positioning that defines modern icons. We craft the aesthetic foundations required to command market authority.' 
+      title: 'Brand Design', 
+      desc: 'Engineering the visual systems and strategic positioning that define industry leaders. We craft the aesthetic foundations required to command market authority.' 
     },
     { 
-      title: 'Algorithmic Visibility', 
-      desc: 'Orchestrating digital dominance through strategic discovery. We ensure your brand’s presence is felt exactly where the culture is looking.' 
+      title: 'Algorithmic Growth', 
+      desc: 'Engineering the technical infrastructure required to dominate your niche. We use data-driven strategy to automate your visibility and outpace the competition in real-time.' 
     },
     { 
       title: 'Performance Intelligence', 
-      desc: 'Transforming raw data into proprietary insights. We map the trajectory of growth to ensure every move is a calculated step toward market leadership.' 
+      desc: 'Transforming market data into proprietary growth systems. We map high-performance trajectories to ensure every move is a calculated step toward absolute authority.' 
     },
     { 
-      title: 'Content Narrative', 
-      desc: 'Curating high-fidelity digital assets that stop the scroll and build brand lore. We translate vision into a consistent, hypnotic aesthetic.' 
+      title: 'Content Creation', 
+      desc: 'Engineering premium digital assets designed to capture market attention and drive conversion. We translate brand vision into high-performance visual systems that sustain engagement in real-time.' 
     },
     { 
       title: 'Market Intelligence', 
       desc: 'Deep-tier analysis of competitor moves and emerging cultural shifts to keep your brand ahead of the curve.' 
     },
     { 
-      title: 'Digital Presence', 
-      desc: 'Architecting seamless, high-status digital environments and ecosystems designed for elite global audiences.' 
+      title: 'Strategic Positioning', 
+      desc: 'Architecting seamless, high-status digital environments for elite global audiences. We ensure every touchpoint is engineered to sustain prestige and command absolute authority.' 
     }
   ];
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
         <div className="space-y-6">
           <p className="font-sans text-[9px] uppercase tracking-[0.5em] opacity-30">Brand Philosophy</p>
           <h1 className="font-sans text-lg md:text-xl font-light italic tracking-tight leading-relaxed opacity-80 max-w-2xl">
-            We believe that true influence is quiet. In a world of loud, fleeting trends, we architect the silent systems that sustain market leadership. We don’t just build brands; we engineer the proprietary DNA that allows them to move with intentionality and outpace the noise of the modern era.
+            We believe that true influence is quiet. In a world of loud, fleeting trends, we architect the silent systems that sustain market leadership. We don’t just build brands; we engineer the strategic infrastructure that allows them to move with intentionality and command their industry with absolute authority.
           </h1>
         </div>
 
@@ -60,7 +60,7 @@ export default function AboutPage() {
           <div className="space-y-4">
             <p className="font-sans text-[9px] uppercase tracking-[0.5em] opacity-30">The Distinction</p>
             <p className="font-sans text-[11px] leading-relaxed opacity-50 uppercase tracking-widest">
-              Most agencies provide solutions for today. We build systems for legacy. Our approach combines creative high-fidelity with performance intelligence to ensure your brand isn’t just seen—it’s remembered.
+              Most agencies provide solutions for today. We build systems for legacy. Our approach combines creative excellence with growth engineering to ensure your brand isn’t just seen—it’s remembered.
             </p>
           </div>
 

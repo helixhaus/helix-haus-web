@@ -28,7 +28,7 @@ export default function ContactPage() {
           href="/inquiry"
           className="font-sans text-[10px] uppercase tracking-[0.5em] text-[#E5E1D8] border border-[#E5E1D8]/40 px-8 py-4 hover:border-[#E5E1D8]/60 inline-block"
         >
-          Initiate Contact
+          Request Free Consultation
         </Link>
       </section>
 

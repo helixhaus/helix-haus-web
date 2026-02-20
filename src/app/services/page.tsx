@@ -5,20 +5,20 @@ import Link from 'next/link';
 
 const services = [
   {
-    title: 'Venture Architecture',
-    desc: 'We help you build your business from the ground up. From the initial spark of an idea to a full growth plan, we design the blueprint for your success.',
+    title: 'Brand Foundations',
+    desc: 'Engineering the core strategic infrastructure of your brand. From market positioning to long-term growth blueprints, we design the industrial-strength foundations required for market leadership.',
   },
   {
-    title: 'Digital Flagships',
-    desc: 'We design and build premium websites that feel like a home for your brand. Beautiful, functional, and tailored specifically to your vision.',
+    title: 'Digital Architecture',
+    desc: 'Engineering high-status digital environments that serve as the central hub for your brand. We build high-performance, minimalist platforms designed to sustain prestige and convert attention into authority.',
   },
   {
-    title: 'Brand Architecture',
-    desc: 'Defining who you are and how the world sees you. We create the visual identity and the story that makes your brand unforgettable.',
+    title: 'Brand Identity',
+    desc: 'Engineering the visual systems and strategic positioning required to command market authority. We craft the high-status aesthetic foundations that allow your brand to move with intentionality and prestige.',
   },
   {
-    title: 'Algorithmic Visibility',
-    desc: 'Making sure you get found by the right people. We handle the strategy behind search and discovery so your brand stays front and center.',
+    title: 'Algorithmic Growth',
+    desc: 'Orchestrating digital dominance through strategic discovery. We engineer the technical infrastructure required to automate your visibility and ensure your brand commands authority wherever your market is looking.',
   },
   {
     title: 'Performance Intelligence',

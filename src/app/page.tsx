@@ -34,7 +34,7 @@ export default function Home() {
       <section className="font-sans max-w-5xl mx-auto pt-32 pb-48 px-6">
         <div className="flex flex-col items-end text-right">
           <h1 className="font-sans text-xl font-light italic tracking-tight leading-[1.2] text-[#E5E1D8] mb-8 max-w-lg">
-            Engineered Intuition
+            Our Vision
           </h1>
           <p className="text-xs uppercase tracking-[0.3em] text-[#E5E1D8]/80 max-w-md leading-relaxed ml-20 md:ml-32">
             A creative-led marketing house built to scale brands. We leverage a private intelligence engine to automate visibility and craft the foundations that allow brands to outpace the market in real-time.
@@ -46,35 +46,27 @@ export default function Home() {
       <section id="services" className="max-w-6xl mx-auto py-32 px-6 border-t border-white/[0.05]" style={{ borderTopWidth: "1px" }}>
         <div className="flex flex-col">
           <div className="border-t border-white/5 py-24 first:border-t-0 first:pt-0">
-            <h3 className="font-sans text-xl font-light tracking-[0.5em] text-[#E5E1D8] uppercase mb-4">
-              Brand Architecture
+            <h3 className="font-sans text-xl font-light tracking-[0.3em] text-[#E5E1D8] uppercase mb-4">
+              Brand Design
             </h3>
             <p className="font-sans text-xs leading-relaxed max-w-md text-[#E5E1D8]/70">
-              Engineering the visual DNA and narrative positioning that defines modern icons. We craft the aesthetic foundations required to command market authority.
+              Engineering the visual identity and market positioning that defines category leaders. We build the high-conversion foundations required to capture attention and outpace the market in real-time.
             </p>
           </div>
           <div className="border-t border-white/5 py-24">
-            <h3 className="font-sans text-xl font-light tracking-[0.5em] text-[#E5E1D8] uppercase mb-4">
-              Algorithmic Visibility
+            <h3 className="font-sans text-xl font-light tracking-[0.3em] text-[#E5E1D8] uppercase mb-4">
+              Algorithmic Growth
             </h3>
             <p className="font-sans text-xs leading-relaxed max-w-md text-[#E5E1D8]/70">
-              Orchestrating digital dominance through strategic discovery. We ensure your brand&apos;s presence is felt exactly where the culture is looking.
+              Constructing the digital infrastructure required to dominate your niche. We use data-driven strategy to automate your visibility and outpace the market in real-time.
             </p>
           </div>
           <div className="border-t border-white/5 py-24">
-            <h3 className="font-sans text-xl font-light tracking-[0.5em] text-[#E5E1D8] uppercase mb-4">
-              Performance Intelligence
+            <h3 className="font-sans text-xl font-light tracking-[0.3em] text-[#E5E1D8] uppercase mb-4">
+              Content Creation
             </h3>
             <p className="font-sans text-xs leading-relaxed max-w-md text-[#E5E1D8]/70">
-              Transforming raw data into proprietary insights. We map the trajectory of growth to ensure every move is a calculated step toward market leadership.
-            </p>
-          </div>
-          <div className="border-t border-white/5 py-24">
-            <h3 className="font-sans text-xl font-light tracking-[0.5em] text-[#E5E1D8] uppercase mb-4">
-              Content Narrative
-            </h3>
-            <p className="font-sans text-xs leading-relaxed max-w-md text-[#E5E1D8]/70">
-              Curating high-fidelity digital assets that stop the scroll and build brand lore. We translate vision into a consistent, hypnotic aesthetic.
+              Engineering premium digital assets designed to capture market attention and drive conversion. We translate brand vision into high-performance visual systems that sustain engagement in real-time.
             </p>
           </div>
         </div>
