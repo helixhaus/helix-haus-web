@@ -14,9 +14,14 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Helix Haus | High-End Web Design & Brand Strategy Toronto",
-  description: "A boutique creative studio helping brands scale through high-end digital design and strategic growth.",
+  metadataBase: new URL("https://helixhaus.com"),
+  title: "Helix Haus | High-End Web Design & Brand Identity",
+  description:
+    "Elite digital experiences and minimalist brand identity for forward-thinking brands.",
   keywords: ["web design Toronto", "luxury branding", "startup agency", "minimalist website"],
+  verification: {
+    google: "PASTE_YOUR_CODE_HERE",
+  },
 };
 
 export default function RootLayout({
