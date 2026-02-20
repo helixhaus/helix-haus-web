@@ -37,7 +37,7 @@ export default function Home() {
             Engineered Intuition
           </h1>
           <p className="text-xs uppercase tracking-[0.3em] text-[#E5E1D8]/80 max-w-md leading-relaxed ml-20 md:ml-32">
-            A creative-led house architecting the DNA of brand growth. We leverage a private intelligence engine to automate visibility and craft the foundations that allow modern legacies to outpace the market in real-time.
+            A creative-led marketing house built to scale brands. We leverage a private intelligence engine to automate visibility and craft the foundations that allow brands to outpace the market in real-time.
           </p>
         </div>
       </section>
