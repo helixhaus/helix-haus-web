@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 
 export default function InquiryPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -22,16 +21,6 @@ export default function InquiryPage() {
 
   return (
     <main className="min-h-screen bg-[#141614] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
-      {/* Header */}
-      <nav className="flex justify-between items-center mb-32">
-        <Link href="/" className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#E5E1D8]">
-          HELIX HAUS
-        </Link>
-        <Link href="/" className="font-sans text-[9px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8]">
-          Back to Home
-        </Link>
-      </nav>
-
       {/* Form section — left-aligned, match About */}
       <section className="max-w-3xl mx-auto w-full text-left mb-40">
         <p className="font-sans text-[9px] uppercase tracking-[0.5em] opacity-30 mb-12">

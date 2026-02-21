@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 
 export default function AboutPage() {
   const [activeService, setActiveService] = useState<string | null>(null);
@@ -35,16 +34,6 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen bg-[#141614] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
-      {/* Navigation */}
-      <nav className="flex justify-between items-center mb-32">
-        <Link href="/" className="font-sans text-[10px] tracking-[0.4em] uppercase opacity-50 hover:opacity-100 transition-opacity">
-          HELIX HAUS
-        </Link>
-        <Link href="/" className="font-sans text-[9px] uppercase tracking-[0.3em] opacity-40 hover:opacity-100 transition-opacity border-b border-transparent hover:border-[#E5E1D8]/20 pb-1">
-          Back to Home
-        </Link>
-      </nav>
-
       <section className="max-w-3xl mx-auto space-y-32 mb-40">
         
         {/* 1. Brand Philosophy */}

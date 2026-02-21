@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 
 const services = [
   {
@@ -43,16 +42,6 @@ export default function ServicesPage() {
 
   return (
     <main className="min-h-screen bg-[#141614] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
-      {/* Header — match About */}
-      <nav className="flex justify-between items-center mb-32">
-        <Link href="/" className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#E5E1D8]">
-          HELIX HAUS
-        </Link>
-        <Link href="/" className="font-sans text-[9px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8]">
-          Back to Home
-        </Link>
-      </nav>
-
       {/* Section title + list — exact match to About (Brand Philosophy block) */}
       <section className="max-w-3xl mx-auto space-y-32 mb-40 w-full text-left">
         <div className="space-y-6 text-left w-full">

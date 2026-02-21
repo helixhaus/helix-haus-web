@@ -1,41 +1,6 @@
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <main className="grain min-h-screen bg-[#141614] text-[#E5E1D8] font-sans relative z-10">
-      {/* Header */}
-      <header className="flex justify-between items-center px-8 py-10 border-b border-[#2D362E]/40">
-        <Link href="/" className="font-sans font-semibold text-lg tracking-[0.3em] uppercase text-[#E5E1D8]">
-          HELIX HAUS
-        </Link>
-        <nav className="flex items-center gap-8">
-          <Link
-            href="/about"
-            className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300"
-          >
-            ABOUT
-          </Link>
-          <Link
-            href="/services"
-            className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300"
-          >
-            SERVICES
-          </Link>
-          <Link
-            href="/portfolio"
-            className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300"
-          >
-            PORTFOLIO
-          </Link>
-          <Link
-            href="/contact"
-            className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300"
-          >
-            CONTACT
-          </Link>
-        </nav>
-      </header>
-
       {/* Hero — boutique: smaller headline, luxury padding */}
       <section className="font-sans max-w-5xl mx-auto pt-32 pb-48 px-6">
         <div className="flex flex-col items-end text-right">
