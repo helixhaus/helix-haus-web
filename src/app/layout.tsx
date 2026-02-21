@@ -35,16 +35,16 @@ export default function RootLayout({
     <html lang="en" className={`${cormorant.variable} ${geist.variable} overflow-x-hidden`}>
       <body className="font-sans antialiased overflow-x-hidden relative">
         <header className="absolute top-0 left-0 right-0 z-50 flex flex-col items-center py-8 px-6 bg-[#141614] border-b border-[#2D362E]/40 w-full max-w-[100vw]">
-          <Link href="/" className="block">
+          <Link href="/" className="block leading-none">
             <Image
               src="/1.svg"
               alt="Helix Haus"
-              width={720}
-              height={180}
-              className="h-[80px] md:h-[120px] w-auto object-contain"
+              width={1080}
+              height={330}
+              className="h-[210px] md:h-[330px] w-auto object-contain"
             />
           </Link>
-          <nav className="flex flex-wrap items-center justify-center gap-4 md:gap-12 mt-8 uppercase tracking-[0.2em]">
+          <nav className="flex flex-wrap items-center justify-center gap-4 md:gap-12 -mt-4 uppercase tracking-[0.2em]">
             <Link
               href="/"
               className="font-sans text-[10px] uppercase tracking-[0.2em] text-[#E5E1D8]/60 hover:text-[#E5E1D8] transition-colors duration-300 whitespace-nowrap"
@@ -77,7 +77,7 @@ export default function RootLayout({
             </Link>
           </nav>
         </header>
-        <div className="pt-[320px]">
+        <div className="pt-[200px] md:pt-[320px]">
           {children}
         </div>
       </body>

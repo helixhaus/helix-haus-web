@@ -3,6 +3,7 @@ import Link from 'next/link';
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-[#141614] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
+      <div className="pt-[120px] md:pt-[180px] flex flex-col flex-1">
       {/* Hero */}
       <section className="flex flex-col items-center text-center max-w-2xl mx-auto mb-16">
         <p className="font-sans text-[10px] uppercase tracking-[0.5em] text-[#E5E1D8]/30 mb-6">
@@ -31,6 +32,7 @@ export default function ContactPage() {
           TORONTO // GLOBAL
         </p>
       </footer>
+      </div>
     </main>
   );
 }

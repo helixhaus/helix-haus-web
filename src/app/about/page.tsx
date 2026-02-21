@@ -34,6 +34,7 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen bg-[#141614] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
+      <div className="pt-[120px] md:pt-[180px] flex flex-col flex-1">
       <section className="max-w-3xl mx-auto space-y-32 mb-40">
         
         {/* 1. Brand Philosophy */}
@@ -97,6 +98,7 @@ export default function AboutPage() {
           Toronto // Global
         </p>
       </footer>
+      </div>
     </main>
   );
 }

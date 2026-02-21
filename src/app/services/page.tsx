@@ -42,6 +42,7 @@ export default function ServicesPage() {
 
   return (
     <main className="min-h-screen bg-[#141614] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
+      <div className="pt-[120px] md:pt-[180px] flex flex-col flex-1">
       {/* Section title + list — exact match to About (Brand Philosophy block) */}
       <section className="max-w-3xl mx-auto space-y-32 mb-40 w-full text-left">
         <div className="space-y-6 text-left w-full">
@@ -78,6 +79,7 @@ export default function ServicesPage() {
           TORONTO // GLOBAL
         </p>
       </footer>
+      </div>
     </main>
   );
 }

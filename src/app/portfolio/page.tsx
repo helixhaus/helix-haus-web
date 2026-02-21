@@ -4,6 +4,7 @@ import Link from 'next/link';
 export default function PortfolioPage() {
   return (
     <main className="min-h-screen bg-[#09090b] text-[#E5E1D8] px-6 py-12 md:px-12 flex flex-col selection:bg-[#2D362E]">
+      <div className="pt-[120px] md:pt-[180px] flex flex-col flex-1">
       {/* Portfolio header */}
       <p className="font-sans text-xs uppercase tracking-[0.3em] text-[#E5E1D8] mb-12">
         Portfolio
@@ -54,6 +55,7 @@ export default function PortfolioPage() {
           TORONTO // GLOBAL
         </p>
       </footer>
+      </div>
     </main>
   );
 }
