@@ -17,10 +17,16 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://helixhaus.com"),
-  title: "Helix Haus | High-End Web Design & Brand Identity",
+  icons: { icon: "/HH.jpg" },
+  title: "Helix Haus | Creative-Led Strategic Marketing Agency",
   description:
-    "Elite digital experiences and minimalist brand identity for forward-thinking brands.",
+    "A private intelligence-driven marketing house built to scale brands and outpace the market through strategic visibility.",
   keywords: ["web design Toronto", "luxury branding", "startup agency", "minimalist website"],
+  openGraph: {
+    title: "Helix Haus | Creative-Led Strategic Marketing Agency",
+    description:
+      "A private intelligence-driven marketing house built to scale brands and outpace the market through strategic visibility.",
+  },
   verification: {
     google: "PASTE_YOUR_CODE_HERE",
   },
